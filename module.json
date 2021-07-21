@@ -12,5 +12,18 @@
     "humhub": {
         "minVersion": "1.6"
     },
-    "screenshots": ["assets/module_image.png"]
+    "homepage": "https://github.com/olantrust/humhub-whiteboard",
+    "authors": [
+        {
+            "name": "Storm Poorun"
+        },
+        {
+            "name": "Vijay Padhariya"
+        }
+    ],
+    "screenshots": [
+        "resources/screenshot-1.png",
+        "resources/screenshot-2.png",
+        "resources/screenshot-3.png"
+    ]
 }
