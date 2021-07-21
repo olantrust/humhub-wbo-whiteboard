@@ -1,0 +1,12 @@
+{
+    "id": "whiteboard",
+    "name": "Whiteboard",
+    "description": "Whiteboard Module for Olan.",
+    "keywords": [
+    ],
+    "version": "0.1",
+    "humhub": {
+        "minVersion": "1.2"
+    },
+    "screenshots": ["assets/module_image.png"]
+}
