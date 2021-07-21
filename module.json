@@ -3,10 +3,14 @@
     "name": "Whiteboard",
     "description": "Whiteboard Module for Olan.",
     "keywords": [
+        "Whiteboard",
+        "White Board",
+        "Board",
+        "Drawing"
     ],
-    "version": "0.1",
+    "version": "1.1",
     "humhub": {
-        "minVersion": "1.2"
+        "minVersion": "1.6"
     },
     "screenshots": ["assets/module_image.png"]
 }
