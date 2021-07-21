@@ -5,6 +5,6 @@ This app leverages the [whiteboard app](https://github.com/lovasoa/whitebophir),
 
 [__Whiteboard Website__](https://wbo.ophir.dev/)
 
-__Module website:__ Olan/Whiteboard
+[__Module website__](https://github.com/olantrust/humhub-whiteboard)
 
 __Developer:__ Vijay Padhariya
