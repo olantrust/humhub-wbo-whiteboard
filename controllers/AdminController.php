@@ -1,10 +1,10 @@
 <?php
 
-namespace olan\whiteboard\controllers;
+namespace olan\wbowhiteboard\controllers;
 
 use Yii;
 use humhub\modules\admin\components\Controller;
-use olan\whiteboard\models\WhiteboardSetup;
+use olan\wbowhiteboard\models\WhiteboardSetup;
 
 class AdminController extends Controller
 {
@@ -16,7 +16,7 @@ class AdminController extends Controller
      */
     public function actionIndex()
     {
-        $module = Yii::$app->getModule('whiteboard');
+        $module = Yii::$app->getModule('wbo-whiteboard');
 
         $model = new WhiteboardSetup();
 

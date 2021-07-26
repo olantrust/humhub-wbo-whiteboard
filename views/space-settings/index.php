@@ -11,7 +11,7 @@ use yii\bootstrap\ActiveForm;
 <div class="panel panel-default">
     <div>
         <div class="panel-heading">
-            <?= Yii::t('WhiteboardModule.manage', '<strong>Whiteboard</strong> Background Color Settings'); ?>
+            <?= Yii::t('WboWhiteboardModule.manage', '<strong>Whiteboard</strong> Background Color Settings'); ?>
         </div>
     </div>
 

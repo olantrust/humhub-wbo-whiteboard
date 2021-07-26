@@ -1,8 +1,8 @@
 <?php
 
-namespace olan\whiteboard\controllers;
+namespace olan\wbowhiteboard\controllers;
 
-use olan\whiteboard\models\WhiteboardBackground;
+use olan\wbowhiteboard\models\WhiteboardBackground;
 use Yii;
 
 /**
@@ -12,7 +12,7 @@ class SpaceSettingsController extends \humhub\modules\space\modules\manage\compo
 {
     public function actionIndex()
     {
-        $module = Yii::$app->getModule('whiteboard');
+        $module = Yii::$app->getModule('wbo-whiteboard');
 
         $space = $this->contentContainer;
 
@@ -22,7 +22,7 @@ class SpaceSettingsController extends \humhub\modules\space\modules\manage\compo
         if ($model->load(Yii::$app->request->post()) && $model->saveValue($space->id))
         {
             $this->view->saved();
-            return $this->redirect($space->createUrl('/whiteboard/space-settings'));
+            return $this->redirect($space->createUrl('/wbo-whiteboard/space-settings'));
         }
 
         $model->bg_color =  $module->settings->get($space->id . '-bg_color');

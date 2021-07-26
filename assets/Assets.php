@@ -1,6 +1,6 @@
 <?php
 
-namespace  olan\whiteboard\assets;
+namespace  olan\wbowhiteboard\assets;
 
 use yii\web\AssetBundle;
 
@@ -12,7 +12,7 @@ class Assets extends AssetBundle
     /**
      * @var string defines the path of your module assets
      */
-    public $sourcePath = '@whiteboard/resources';
+    public $sourcePath = '@wbo-whiteboard/resources';
 
     /**
      * @var array defines where the js files are included into the page, note your custom js files should be included after the core files (which are included in head)
@@ -27,7 +27,7 @@ class Assets extends AssetBundle
     ];
 
     public $js = [
-        'js/humhub.whiteboard.js'
+        'js/humhub.wbo-whiteboard.js'
     ];
 
 }

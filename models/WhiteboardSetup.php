@@ -1,6 +1,6 @@
 <?php
 
-namespace olan\whiteboard\models;
+namespace olan\wbowhiteboard\models;
 
 use Yii;
 
@@ -48,7 +48,7 @@ class WhiteboardSetup extends \humhub\models\Setting
      */
     public function save($runValidation = true, $attributeNames = NULL)
     {
-        $module = Yii::$app->getModule('whiteboard');
+        $module = Yii::$app->getModule('wbo-whiteboard');
 
         $module->settings->set('wb_url', $this->wb_url);
 
@@ -62,7 +62,7 @@ class WhiteboardSetup extends \humhub\models\Setting
      */
     public static function getValue($key)
     {
-        return Yii::$app->getModule('whiteboard')->settings->get($key);
+        return Yii::$app->getModule('wbo-whiteboard')->settings->get($key);
     }
 
 }

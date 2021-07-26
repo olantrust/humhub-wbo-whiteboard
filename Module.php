@@ -1,6 +1,6 @@
 <?php
 
-namespace olan\whiteboard;
+namespace olan\wbowhiteboard;
 
 use Yii;
 use yii\helpers\Url;
@@ -26,7 +26,7 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     */
     public function getConfigUrl()
     {
-        return Url::to(['/whiteboard/admin']);
+        return Url::to(['/wbo-whiteboard/admin']);
     }
 
     /**
@@ -52,7 +52,7 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     */
     public function getContentContainerName(ContentContainerActiveRecord $container)
     {
-        return Yii::t('WhiteboardModule.base', 'Whiteboard');
+        return Yii::t('WboWhiteboardModule.base', 'WBO Whiteboard');
     }
 
     /**
@@ -60,6 +60,6 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     */
     public function getContentContainerDescription(ContentContainerActiveRecord $container)
     {
-        return Yii::t('WhiteboardModule.base', 'Whiteboard Module for Olan');
+        return Yii::t('WboWhiteboardModule.base', 'Short description of the modules purpose.');
     }
 }

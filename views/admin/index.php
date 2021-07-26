@@ -11,7 +11,7 @@ if(!empty($model->wb_url))
 ?>
 <div class="container-fluid">
     <div class="panel panel-default">
-        <div class="panel-heading"><strong><?= Yii::t('WhiteboardModule.base', 'Whiteboard') ?></strong> <?= Yii::t('WhiteboardModule.base', 'configuration') ?></div>
+        <div class="panel-heading"><strong><?= Yii::t('WboWhiteboardModule.base', 'Whiteboard') ?></strong> <?= Yii::t('WboWhiteboardModule.base', 'configuration') ?></div>
 
         <div class="panel-body">
             <?php $form = ActiveForm::begin(); ?>
@@ -21,7 +21,7 @@ if(!empty($model->wb_url))
                     ])->textInput(['maxlength' => true])->label('Whiteboard URL (for use with Email and Contacts modules)'); ?>
 
                 <div class="form-group">
-                    <?= Html::submitButton(Yii::t('WhiteboardModule.base', 'Save'), ['class' => 'btn btn-success']) ?>
+                    <?= Html::submitButton(Yii::t('WboWhiteboardModule.base', 'Save'), ['class' => 'btn btn-success']) ?>
                 </div>
             <?php ActiveForm::end(); ?>
         </div>

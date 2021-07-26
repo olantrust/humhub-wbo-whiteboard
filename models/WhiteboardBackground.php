@@ -1,6 +1,6 @@
 <?php
 
-namespace olan\whiteboard\models;
+namespace olan\wbowhiteboard\models;
 
 use Yii;
 
@@ -39,7 +39,7 @@ class WhiteboardBackground extends \humhub\models\Setting
      */
     public function saveValue($space_id)
     {
-        $module = Yii::$app->getModule('whiteboard');
+        $module = Yii::$app->getModule('wbo-whiteboard');
 
         $module->settings->set($space_id . '-bg_color', $this->bg_color);
 
@@ -53,7 +53,7 @@ class WhiteboardBackground extends \humhub\models\Setting
      */
     public static function getValue($key)
     {
-        return Yii::$app->getModule('whiteboard')->settings->get($key);
+        return Yii::$app->getModule('wbo-whiteboard')->settings->get($key);
     }
 
 }
